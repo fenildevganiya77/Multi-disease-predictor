@@ -1,5 +1,3 @@
-# Multi-disease-predictor
-Machine Learning model,that can predict heart disease,diabetes and breast cancer from your medical data, this project is one of my task of summer internship at codeAlpha.
 # 🏥 Multi Disease Prediction System
 
 A Machine Learning-based web application that predicts the likelihood of **Heart Disease**, **Diabetes**, and **Breast Cancer** using trained classification models. The application is built with **Python**, **Scikit-learn**, **XGBoost**, and **Streamlit**.
@@ -90,10 +88,15 @@ Multi-disease-predictor/
 │   └── breast_cancer.pkl
 │
 ├── Datasets/
+│   ├── heart_disease.csv
+│   ├── diabetes.csv
+│   └── breast_cancer.csv
 │
 ├── Notebooks/
+│   ├── heart_disease.ipynb
+│   ├── diabetes.ipynb
+│   └── breast_cancer.ipynb
 │
-├── requirements.txt
 │
 └── README.md
 ```
@@ -130,7 +133,7 @@ venv\Scripts\activate
 ### Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r streamlit pandas numpy scikit-learn xgboost joblib pickle
 ```
 
 ---
@@ -149,35 +152,11 @@ http://localhost:8501
 
 ---
 
-## 📷 Screenshots
-
-Add screenshots of your application here after deployment.
-
-Example:
-
-- Home Page
-- Heart Disease Prediction
-- Diabetes Prediction
-- Breast Cancer Prediction
-
----
-
-## 📌 Future Improvements
-
-- Add more disease prediction models
-- Deploy the application on Streamlit Community Cloud
-- Improve UI/UX with custom themes
-- Add SHAP Explainable AI
-- Store prediction history
-- User authentication system
-
----
-
 ## 👨‍💻 Author
 
-**Fenil Ganiya**
+**Fenil Devganiya**
 
-B.Tech – Data Science & Artificial Intelligence  
+2nd year B.Tech – Data Science & Artificial Intelligence  
 Indian Institute of Technology Bhilai
 
 GitHub:
