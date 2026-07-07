@@ -442,7 +442,7 @@ else:
     st.subheader("Mean, Standard Error & Worst Measurements")
 
     c1, c2 = st.columns(2)
-        for i, feature in enumerate(feats):
+    for i, feature in enumerate(feats):
 
         with (c1 if i % 2 == 0 else c2):
 
