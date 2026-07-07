@@ -156,7 +156,7 @@ if page == "❤️ Heart Disease":
             ]
         )
 
-        values["sex"] = 1 if sex == "Male" else 0
+        values["sex"] = sex.lower()
 
         chest_pain = st.selectbox(
             "Chest Pain Type",
