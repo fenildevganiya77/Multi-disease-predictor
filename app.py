@@ -270,9 +270,9 @@ if page == "❤️ Heart Disease":
         )
 
         values["thal"] = {
-            "Normal":1,
-            "Fixed Defect":2,
-            "Reversible Defect":3
+            "Normal":3,
+            "Fixed Defect":6,
+            "Reversible Defect":7
         }[thal]
 
     if st.button("Predict Heart Disease"):
