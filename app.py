@@ -213,7 +213,7 @@ if page == "❤️ Heart Disease":
             "ST-T Wave Abnormality":1,
             "Left Ventricular Hypertrophy":2
         }[ecg]
-            with col2:
+    with col2:
 
         values["thalach"] = st.slider(
             "Maximum Heart Rate Achieved",
